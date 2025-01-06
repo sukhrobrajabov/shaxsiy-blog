@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shaxsiy Blog</title>
+    <link rel="stylesheet" href="/Users/Sarvar/Desktop/blog/style.css">
+</head>
+<body>
+
+    <!-- Navigatsiya paneli -->
+    <nav id="navbar">
+        <div class="navbar-container">
+            <a href="#" class="logo">Rajabov.UZ</a>
+            <ul class="navbar-links">
+                <li><a href="#home">Bosh Sahifa</a></li>
+                <li><a href="#about">Men Haqimda</a></li>
+                <li><a href="#news">Yangiliklar</a></li>
+                <li><a href="#contact">Aloqa</a></li>
+            </ul>
+            <div class="navbar-options">
+                <select id="language-select" class="language-select">
+                    <option value="uz">UZ</option>
+                    <option value="en">EN</option>
+                    <option value="en">RU</option>
+                </select>
+                <button id="theme-toggle" class="theme-toggle-btn">
+                    🌙
+                </button>
+            </div>
+        </div>
+    </nav>
+    
+    
+    
+
+    <!-- Bosh sahifa bo'limi -->
+    <section id="home" class="section-home">
+        <div class="home-container">
+            <div class="home-content">
+                <h1>Shaxsiy Blogga Xush Kelibsiz!</h1>
+                <p>Men Suxrob Rajabov, telekommunikatsiya va texnologiyalar sohasida o'qiyman. Ushbu blogda o'zimning fikrlarim, ilmiy ishlanmalarim va yangiliklar bilan bo'lishaman.</p>
+                <a href="#about" class="btn">Batafsil bilish</a>
+            </div>
+            <div class="home-image">
+                <img src="/Users/Sarvar/Desktop/blog/sukhrob.jpg" alt="Shaxsiy Blog Tasviri">
+            </div>
+        </div>
+    </section>
+    
+
+    <!-- Men haqimda bo'limi -->
+    <section id="about" class="section-about">
+        <div class="about-container">
+            <div class="about-image">
+                <img src="/Users/Sarvar/Desktop/blog/sukhrob2.jpg" alt="Sarvar Rustamov">
+            </div>
+            <div class="about-content">
+                <h2>Men Haqimda</h2>
+                <p>Salom! Men Suxrob Rajabov, Telekommunikatsiya muhandisi va texnologiyalar sohasiga qiziquvchi mutaxassisman. O‘z blogim orqali o‘zimning tajribam, loyihalarim va fikrlarimni dunyo bilan baham ko‘raman. Mening maqsadim — zamonaviy texnologiyalardan foydalanib odamlarning hayotini yaxshilashga hissa qo‘shish.</p>
+                <p>Men IT va telekommunikatsiya sohasida tajribamni oshirish bilan birga, yosh avlod uchun bilim almashish va rivojlanish uchun imkoniyat yaratishga intilaman.</p>
+                <a href="#contact" class="btn">Aloqa</a>
+            </div>
+        </div>
+    </section>
+    
+
+    <!-- Yangiliklar bo'limi -->
+    <section id="news" class="section-news">
+        <div class="news-container">
+            <h2>So‘nggi Yangiliklar</h2>
+            <div class="news-grid">
+                <div class="news-card">
+                    <img src="https://zamin.uz/uploads/posts/2024-12/3ddb70b5eb_mwc-oytsi2dximy1c2yap-bfmko9zvhc.webp" alt="Yangilik 1">
+                    <div class="news-content">
+                        <h3>Sun’iy intellekt diabet rivojlanish xavfini o‘nlab yillar oldin aniqlashga yordam beradi</h3>
+                        <p></p>
+                        <a href="#" class="btn">Batafsil</a>
+                    </div>
+                </div>
+                <div class="news-card">
+                    <img src="https://zamin.uz/uploads/mini/category/23/2cc4d733a4_6r99uwrnb7auwwkw8z6oqki7dba8ybhm.webp" alt="Yangilik 2">
+                    <div class="news-content">
+                        <h3>ChatGPT bepul qo‘ng‘iroqlar va yozishmalar uchun telefon raqamiga ega bo‘ldi</h3>
+                        <p></p>
+                        <a href="#" class="btn">Batafsil</a>
+                    </div>
+                </div>
+                <div class="news-card">
+                    <img src="https://zamin.uz/uploads/posts/2024-12/7e1313a2a7_42074623_19301919971_1920x0_80_0_0_bd12f726f9ad21073fc38ee35670b3ab.webp" alt="Yangilik 3">
+                    <div class="news-content">
+                        <h3>O‘zbekiston sun’iy intellektga tayyorgarlik indeksida 17 o‘ringa yuqoriladi</h3>
+                        <p></p>
+                        <a href="#" class="btn">Batafsil</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Aloqa bo'limi -->
+    <section id="contact">
+        <div class="contact-container">
+            <h2>Aloqa</h2>
+            <p>Biz bilan bog'lanish uchun quyidagi formani to'ldiring:</p>
+            <form action="#" method="post" class="contact-form">
+                <div class="form-group">
+                    <label for="name">Ismingiz</label>
+                    <input type="text" id="name" name="name" required placeholder="Ismingizni kiriting">
+                </div>
+                <div class="form-group">
+                    <label for="email">Elektron pochta</label>
+                    <input type="email" id="email" name="email" required placeholder="Pochta manzilingizni kiriting">
+                </div>
+                <div class="form-group">
+                    <label for="message">Xabar</label>
+                    <textarea id="message" name="message" rows="5" required placeholder="Xabarni kiriting"></textarea>
+                </div>
+                <button type="submit" class="submit-btn">Yuborish</button>
+            </form>
+        </div>
+    </section>
+    
+    <section id="social" class="section-social">
+        <div class="social-container">
+            <h2>Ijtimoiy Tarmoqlar</h2>
+            <p>Quyidagi ijtimoiy tarmoqlarda meni kuzatib boring:</p>
+            <div class="social-links">
+                <a href="#" class="social-link facebook">
+                    <img src="/Users/Sarvar/Desktop/blog/fbk.png" alt="Facebook"> Facebook
+                </a>
+                <a href="#" class="social-link twitter">
+                    <img src="/Users/Sarvar/Desktop/blog/x.png" alt="Twitter"> Twitter
+                </a>
+                <a href="#" class="social-link instagram">
+                    <img src="/Users/Sarvar/Desktop/blog/Instagram_icon.png" alt="Instagram"> Instagram
+                </a>
+                <a href="#" class="social-link linkedin">
+                    <img src="/Users/Sarvar/Desktop/blog/ln.png" alt="LinkedIn"> LinkedIn
+                </a>
+                <a href="#" class="social-link youtube">
+                    <img src="/Users/Sarvar/Desktop/blog/yt.png" alt="YouTube"> YouTube
+                </a>
+                <a href="#" class="social-link youtube">
+                    <img src="/Users/Sarvar/Desktop/blog/tg.png" alt="Telegram"> Telegram
+                </a>
+            </div>
+        </div>
+    </section>
+    
+    
+        
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Suxrob Rajabov. Sukhrob.UZ</p>
+        </div>
+    </footer>
+
+</body>
+</html>
